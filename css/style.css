@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+html {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.boards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7vh;
+}
+
+.board {
+    background-color: #ffffff;
+    border-radius: 1vh;
+    border: 1px solid #e9e9e9;
+    box-shadow: 3px 4px 5px 2px #e9e9e9;
+}
+
+.board h3 {
+    padding: 2vh;
+    margin: 0;
+    color: #1a4c66;
+}
+
+.dropzone {
+    padding: 2vh;
+    min-width: 20vw;
+    min-height: 200px;
+}
+
+.card {
+    padding: 2vh;
+    box-shadow: 0 2px 3px 2px #f2f2f2;
+    border-radius: 0.7vh;
+}
+
+.status {
+    width: 30px;
+    height: 8px;
+    background: violet;
+    margin-bottom: 1vh;
+    border-radius: 0.7vh;
+}
+
+.status.purple {
+    background: #9400d3;
+}
+
+.status.blue {
+    background: #00ced1;
+}
+
+.status.green {
+    background: #adff2f;
+}
+
+.status.red {
+    background: #ff0000;
+}
+
+.highlight {
+    background-color: rgba(137, 255, 255, 0.075);
+}
+
+.card, .dropzone {
+    transition: .4s;
+}
+
+.dragging {
+    opacity: 0.3;
+}
+
+.over {
+    background-color: #acff2f28;
+}
